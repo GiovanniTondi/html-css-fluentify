@@ -13,12 +13,82 @@ body {
     background-repeat: repeat;
 }
 
+.p-center {
+    padding: 0 10%;
+}
+
 /* *** HEADER *** */
 header {
     background-color: #112c50;
     /* DEBUG:  */
     height: 300px;
 }
+
+/* ** MENU ** */
+/* Regole generali */
+#nav-menu::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#nav-menu #logo {
+    float: left;
+    width: 13%;
+    margin-top: 15px;
+}
+
+#nav-menu #logo img {
+    vertical-align: middle;
+}
+
+.menu-inline {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.menu-inline li {
+    display: inline-block;
+}
+
+.menu-inline li a {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+/* Regole specifiche menu */
+/* MENU Sinistra */
+#menu-sx {
+    float: left;
+    width: 45%;
+    text-align: left;
+}
+
+
+/* MENU Destra */
+#menu-dx {
+    float: left;
+    width: 42%;
+    text-align: right;
+}
+
+.btn {
+    padding: 10px 25px;
+    border: solid 1px #fff;
+    border-radius: 8px;
+}
+
+.btn-green {
+    background-color: #74b322;
+    border: 0;
+}
+
+
 
 /* *** MAIN *** */
 #sotto-header {
