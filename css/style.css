@@ -1,0 +1,45 @@
+/* Regole generali */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../img/background-pattern.png");
+    background-repeat: repeat;
+}
+
+/* *** HEADER *** */
+header {
+    background-color: #112c50;
+    /* DEBUG:  */
+    height: 300px;
+}
+
+/* *** MAIN *** */
+#sotto-header {
+    background-color: #dacece;
+    height: 150px;
+}
+
+.col-3 {
+    /* DEBUG:  */
+    background-color: red;
+    height: 400px;
+}
+
+.col-2 {
+    /* DEBUG:  */
+    background-color: blue;
+    height: 400px;
+}
+
+#struttura-piano {
+    /* DEBUG:  */
+    background-color: #dacece;
+    height: 150px;
+}
