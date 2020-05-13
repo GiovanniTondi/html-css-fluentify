@@ -1,4 +1,4 @@
-/* Regole generali */
+/* *** REGOLE GENERALI *** */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
@@ -14,6 +14,12 @@ body {
 .p-center {
     padding: 0 10%;
 }
+
+.text-center {
+    text-align: center;
+}
+
+/* ************************** */
 
 /* RIGA */
 .riga::after {
@@ -152,29 +158,27 @@ header {
     width: 98%;
 }
 
-.box {
+.box-3 {
     float: left;
-    width: 33.333%;
-    background-color: #fff;
-    text-align: center;
     padding: 20px 40px;
+    width: 33.333%;
 }
 
-.box img {
+.box-3 img {
     height: 250px;
     padding: 20px 0;
 }
 
-.box h3 {
+.box-3 h3 {
     font-size: 28px;
     font-weight: bold;
     color: #74b322;
 }
 
-.box p {
+.box-3 p {
     padding-bottom: 20px;
     font-size: 18px;
-    line-height: 1.8em;
+    line-height: 1.7em;
 }
 
 .divisore-orizzontale {
@@ -185,10 +189,36 @@ header {
 }
 
 /* Sezione 2 colonne */
-.col-2 {
-    /* DEBUG:  */
-    background-color: blue;
-    height: 400px;
+/* .col-2 {
+    padding: 0 15%;
+} */
+
+.box-2 {
+    float: left;
+    width: 50%;
+}
+
+.box-2 img {
+    height: 470px;
+    padding: 20px 0;
+}
+
+.box-2 h4 {
+    font-size: 36px;
+    line-height: 1.7em;
+    font-weight: bold;
+    color: #000;
+}
+
+.box-2 p {
+    padding: 15px 0;
+    font-size: 18px;
+    line-height: 1.7em;
+}
+
+.scopri-livello {
+    padding: 50px 40px;
+    width: 75%;
 }
 
 #struttura-piano {
