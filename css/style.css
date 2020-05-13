@@ -9,19 +9,34 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url("../img/background-pattern.png");
-    background-repeat: repeat;
 }
 
 .p-center {
     padding: 0 10%;
 }
 
+/* Buttons */
+.btn {
+    padding: 10px 25px;
+    border: solid 1px #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-green {
+    background-color: #74b322;
+    border: 0;
+}
+
+.btn-large {
+    padding: 25px 35px;
+}
+
+
 /* *** HEADER *** */
 header {
     background-color: #112c50;
-    /* DEBUG:  */
-    height: 300px;
 }
 
 /* ** MENU ** */
@@ -69,7 +84,6 @@ header {
     text-align: left;
 }
 
-
 /* MENU Destra */
 #menu-dx {
     float: left;
@@ -77,17 +91,32 @@ header {
     text-align: right;
 }
 
-.btn {
-    padding: 10px 25px;
-    border: solid 1px #fff;
-    border-radius: 8px;
+
+/* *** SEZIONE JUMBOTRON *** */
+.container-full {
+    margin-top: 75px;
+    background-image: url("../img/fluentify-jumbo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 105%;
 }
 
-.btn-green {
-    background-color: #74b322;
-    border: 0;
+.jumbotron {
+    height: 500px;
+    width: 60%;
+    padding-top: 80px;
+    color: #fff;
 }
 
+.jumbotron h1 {
+    padding-bottom: 60px;
+    font-size: 62px;
+}
+
+.jumbotron a {
+    text-decoration: none;
+}
+/* /JUMBOTRON */
 
 
 /* *** MAIN *** */
