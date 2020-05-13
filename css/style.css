@@ -15,6 +15,13 @@ body {
     padding: 0 10%;
 }
 
+/* RIGA */
+.riga::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Buttons */
 .btn {
     padding: 10px 25px;
@@ -41,13 +48,13 @@ header {
 
 /* ** MENU ** */
 /* Regole generali */
-#nav-menu::after {
+.nav-menu::after {
     content: "";
     display: table;
     clear: both;
 }
 
-#nav-menu #logo {
+.nav-menu #logo {
     float: left;
     width: 13%;
     margin-top: 15px;
@@ -78,14 +85,14 @@ header {
 
 /* Regole specifiche menu */
 /* MENU Sinistra */
-#menu-sx {
+.menu-sx {
     float: left;
     width: 45%;
     text-align: left;
 }
 
 /* MENU Destra */
-#menu-dx {
+.menu-dx {
     float: left;
     width: 42%;
     text-align: right;
@@ -120,30 +127,64 @@ header {
 
 
 /* *** MAIN *** */
-#main-header {
+.main-header {
     padding: 50px 0;
     background-color: #dacece;
     text-align: center;
 }
 
-#main-header h2 {
+.main-header h2 {
     padding-bottom: 15px;
     font-size: 28px;
     font-weight: bold;
 }
 
-#main-header span {
+.main-header span {
     font-size: 20px;
     font-weight: bold;
     color: #595656;
 }
 
+/* Sezione 3 colonne */
 .col-3 {
-    /* DEBUG:  */
-    background-color: red;
-    height: 400px;
+    margin: 40px auto;
+    border-bottom: solid 2px #dacece;
+    width: 98%;
 }
 
+.box {
+    float: left;
+    width: 33.333%;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.box img {
+    height: 250px;
+    padding: 20px 0;
+}
+
+.box h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #74b322;
+}
+
+.box p {
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+
+.divisore-orizzontale {
+    display: inline-block;
+    margin: 20px 0;
+    width: 75px;
+    border-bottom: solid 2px #595656;
+}
+
+/* Sezione 2 colonne */
 .col-2 {
     /* DEBUG:  */
     background-color: blue;
