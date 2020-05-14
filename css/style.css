@@ -63,17 +63,13 @@ header {
 
 .nav-menu #logo {
     float: left;
-    width: 13%;
+    width: 8%;
+    margin-right: 5%;
     margin-top: 15px;
-}
-
-#nav-menu #logo img {
-    vertical-align: middle;
 }
 
 .menu-inline {
     margin-top: 10px;
-    text-align: center;
 }
 
 .menu-inline li {
@@ -95,7 +91,6 @@ header {
 .menu-sx {
     float: left;
     width: 45%;
-    text-align: left;
 }
 
 /* MENU Destra */
@@ -223,6 +218,7 @@ header {
 }
 
 .struttura-piano {
+    position: relative;
     height: 250px;
     font-size: 24px;
     font-weight: bold;
@@ -246,4 +242,12 @@ header {
     border-style: hidden;
     border-bottom: solid 2px #000;
     -webkit-appearance: none;
+}
+
+#help-btn {
+    position: absolute;
+    bottom: 0;
+    right: 21%;
+    padding: 10px 15px;
+    font-size: 16px;
 }
